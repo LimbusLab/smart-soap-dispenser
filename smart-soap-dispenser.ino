@@ -1,3 +1,16 @@
+/*
+ * Smart Soap Dispenser
+ * Created by 
+ * Andrew Maxwell-Parish
+ * 9/22/2016
+ * www.limbuslab.com 
+ * 
+ * Using two proximity sensors on a automatic soap dispensing unit found in most hospitals.
+ * Alerts when someone walks into or out of a patient room without disinfecting. 
+ * 
+ */
+
+
 const int handSensor = A0;
 const int doorSensor = A1;
 const int speakerPin = 9;
